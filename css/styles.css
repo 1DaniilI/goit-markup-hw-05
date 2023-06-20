@@ -122,6 +122,7 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 color: #2E2F42;
 padding: 24px 0;
+transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .nav-link{
@@ -233,6 +234,7 @@ background-size: cover;
 	border: none;
 	border-radius: 4px;
 	margin: 0 auto;
+	transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 	}
 
 .header-button:hover,
@@ -370,6 +372,7 @@ gap: 24px;
 .team-soc-item {
 	width: 40px;
 	height: 40px;
+	transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .team-soc-link{
@@ -452,6 +455,8 @@ align-items: center;
 	align-items: center;
 	justify-content: center;
 	color: #8e8f99;
+	transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
 
   .test-link:hover {
@@ -622,6 +627,7 @@ margin-bottom: 8px;
 		display: flex;
 		align-items: center;
 		justify-content: center;
+		transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 	  }
 
 	  .footer{
